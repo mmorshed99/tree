@@ -12,7 +12,6 @@ return [1,2,3].
 
 Using recursion is not allowed.
 
-*/
 * Definition for binary tree
  * struct TreeNode {
  *     int val;
