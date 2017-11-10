@@ -1,4 +1,5 @@
- * Definition for binary tree
+/** 
+* Definition for binary tree
  * struct TreeNode {
  *     int val;
  *     TreeNode *left;
