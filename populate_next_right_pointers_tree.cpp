@@ -11,7 +11,6 @@ void Solution::connect(TreeLinkNode* A) {
     A-> next = NULL;
     if(A != NULL) {
         save.push_back(A);
-    //else return A;
     while(1){
         if(save.empty()) break;
         vector<TreeLinkNode*> temp;
