@@ -15,7 +15,7 @@
 
 TreeNode* my_Tree(vector<int> &post, vector<int> &in, int start, int end, int &treeIndex){
 
-    if(start > end)
+    if(start > end)     // In: 7,5,6,2,3,1,4   Post: 5,6,3,1,4,2,7
         return NULL;
 
     TreeNode* node = new TreeNode(post[treeIndex--]);
